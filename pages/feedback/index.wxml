@@ -10,10 +10,17 @@
         <text>其他</text>
       </view>
       <view class="content_decription">
-        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <textarea placeholder="请描述一下您的问题"></textarea>
+        <view class="tool">
+          <button style="background-color:rgb(233, 229, 229);width:90rpx;height:90rpx; font-size:60rpx;padding:0;display:flex;justify-content:center;align-items:center;margin-left:20rpx;color:#ccc">+</button>
+        </view>
       </view>
       <view class="submit">
-        <button>提交</button>
+        <button type="warn" style="width:30%;margin:0;background-color: #fa5151;color: white;height: 90rpx;padding: 0;text-align: center;display: flex;justify-content: center;align-items: center;">
+        <icon type="success_no_circle" size="23" color="white">
+        </icon>
+          提交
+        </button>
       </view>
     </view>
   </view>

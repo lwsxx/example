@@ -1,1 +1,41 @@
 /* pages/feedback/index.wxss */
+page{
+  background-color: rgb(218, 216, 216);
+}
+.content{
+  background-color: rgb(218, 216, 216);
+  padding: 20rpx;
+  height: 100%;
+
+}
+.content_title{
+  font-size: 30rpx;
+}
+.content_tips{
+  display: flex;
+  flex-wrap: wrap;
+}
+text{
+  width: 30%;
+  padding: 10rpx;
+  margin: 20rpx 10rpx;
+  text-align: center;
+  background-color: #fff;
+}
+.content_decription{
+background-color: #fff;
+margin-top: 20rpx;
+}
+textarea{
+  padding: 10rpx;
+}
+.submit{
+  margin-top: 30rpx;
+  display: flex;
+  justify-content: flex-end;
+}
+.tool{
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20rpx;
+}

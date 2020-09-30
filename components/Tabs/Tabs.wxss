@@ -3,6 +3,7 @@
 .tabs-title{
   display: flex;
   height: 80rpx;
+  background-color: #fff;
 }
 .tabs-item{
   flex: 1;
