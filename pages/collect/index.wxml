@@ -1,0 +1,23 @@
+<!--pages/collect/index.wxml-->
+<Tabs tabs="{{tab}}" binditemChange="handleChange">
+  <block wx:if="{{tab[0].isActive}}">
+    <view class="goodsList_item" wx:for="{{collectList}}" wx:for-item="goodsItem" wx:key="index">
+    <navigator class="goods_item_group" url="/pages/goods_detail/index?goods_id={{goodsItem.goods_id}}">
+      <view class="item_img">
+        <image src="{{goodsItem.goods_small_logo?goodsItem.goods_small_logo:'https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=2165691866,2570924737&fm=26&gp=0.jpg'}}" mode="widthFix" style="height: 220rpx;width: 220rpx;"></image>
+      </view>
+      <view class="description">
+        <view class="item_title">
+          {{goodsItem.goods_name}}
+        </view>
+        <view class="item_price">
+          <text>￥</text>{{goodsItem.goods_price}}
+        </view>
+      </view>
+    </navigator>
+  </view>
+  </block>
+  <block wx:elif="{{tab[1].isActive}}">品牌收藏</block>
+  <block wx:elif="{{tab[2].isActive}}">店铺收藏</block>
+  <block wx:elif="{{tab[3].isActive}}">浏览足迹</block>
+</Tabs>

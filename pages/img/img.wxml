@@ -1,0 +1,24 @@
+<!--pages/img/img.wxml-->
+<!--pages/img/img.wxml-->
+<!-- <view wx:for="{{fenlei}}" wx:for-item="item" wx:for-index="index" wx:key="id">
+{{item.name}}
+</view>
+
+<input type="text" bindinput="handleinput" />
+<view>{{num}}</view>
+<button bindtap = "handletap" data-operation="{{1}}" >
+    +
+</button>
+<button bindtap = "handletap" data-operation="{{-1}}" >
+    -
+</button>
+<button open-type="getPhoneNumber" bindgetphonenumber="getPhoneNumber">getPhoneNumber</button>
+<button open-type="getUserInfo" bindgetuserinfo="getUserInfo" type="primary" plain>getUserInfo</button>
+<checkbox-group bindchange="handleItemChange">
+    <checkbox wx:for="{{list}}" value="{{item.value}}" wx:key="id">
+        {{item.name}}
+    </checkbox>
+</checkbox-group>
+<view>{{checkedList}}</view> -->
+<!--绑定子组件的自定义事件-->
+<Tabs tabs="{{tabs}}" binditemChange="handleChange"></Tabs>

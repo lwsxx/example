@@ -1,0 +1,4 @@
+<!--pages/auth/index.wxml-->
+<view class="auth">
+<button type="primary" style="width:100%;margin-top:15rpx" plain open-type="getUserInfo" bindgetuserinfo="handleGetUserInfo">获取授权</button>
+</view>

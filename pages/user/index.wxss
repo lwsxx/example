@@ -1,0 +1,113 @@
+/* pages/user/index.wxss */
+page{
+  background-color: #edece8;
+}
+.user_info_wrap,.login_btn{
+  height: 45vh;
+  overflow: hidden;
+  position: relative;
+}
+.user_info_wrap .user_img_wrap{
+  width: 100%;
+  background-color: rgb(236, 234, 234);
+}
+.user_info_wrap .user_img_wrap .user_bg{
+  height: 45vh;
+    filter: blur(5px);
+}
+.user_info{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: 20%;
+  text-align: center;
+}
+.user_icon{
+  width: 150rpx;
+  height: 150rpx;
+  border-radius: 50%;
+}
+.user_name{
+  color: #fff;
+  margin-top: 40rpx;
+    font-size: 35rpx;
+}
+.login_btn{
+  background-color: var(--themeColor);
+}
+.login_btn navigator{
+ font-size: 40rpx;
+ color: #fff;
+ border: 1rpx solid greenyellow;
+ padding: 15rpx 25rpx;
+ border-radius: 10rpx;
+ position: absolute;
+ left: 50%;
+ transform: translate(-50%);
+ top: 30%;
+}
+.user_content{
+  position: relative;
+}
+.user_content .userinfo_main{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  top: -40rpx;
+  width: 95%;
+  margin-bottom: 100rpx;
+}
+.user_content .userinfo_main .history{
+  display: flex;
+  padding: 10rpx 0rpx;
+  background-color: #fff;
+  text-align: center;
+}
+.user_content .userinfo_main .history navigator{
+  flex: 1;
+  font-size: 30rpx;
+}
+.userinfo_main .history navigator .his_num{
+  color: var(--themeColor);
+}
+.order{
+  background-color: #fff;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+}
+.order .order_title{
+  padding: 15rpx 0rpx 15rpx 15rpx;
+  border-bottom: 2rpx solid  rgb(207, 204, 204);
+}
+.order .order_content{
+  display: flex;
+  text-align: center;
+}
+.order .order_content navigator{
+  flex: 1;
+  padding: 15rpx 0rpx;
+}
+.iconfont{
+color: var(--themeColor);
+}
+.address_manage,.app_fenxiang{
+  background-color: #fff;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+  padding: 20rpx 15rpx;
+}
+.other_info{
+  background-color: #fff;
+  margin-top: 20rpx;
+  font-size: 30rpx;
+}
+.other_info .other_info_item{
+  padding: 20rpx 15rpx;
+  border-bottom: 2rpx solid  rgb(207, 204, 204) ;
+}
+.other_info .other_info_item_lianxi{
+  display: flex;
+  justify-content:space-between ;
+  padding: 20rpx 15rpx;
+  border-bottom: 2rpx solid  rgb(207, 204, 204) ;
+}

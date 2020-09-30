@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "searchInput":"/components/SearchInput/Search"
+  },
+  "navigationBarTitleText": "HunterGirl首页"
+}

@@ -1,0 +1,102 @@
+/* pages/goods_detail/index.wxss */
+page{
+  padding-bottom: 90rpx;
+}
+.detail_swiper swiper{
+  /* width: 100%;
+  height: calc(100% * 400 / 400); */
+  height: 60vw;
+  text-align: center;
+}
+swiper image{
+  width: 60%;
+}
+.info .price{
+  color: var(--themeColor);
+  font-size: 38rpx;
+  font-weight: bold;
+  margin-left: 10rpx;
+}
+.information{
+  display: flex;
+  padding: 10rpx 22rpx 10rpx 5rpx;
+  font-size: 32rpx;
+  margin-bottom: 15rpx;
+}
+.information .title{
+  flex: 4;
+  padding: 0rpx 10rpx 0rpx 10rpx;
+  border-right: 5rpx solid rgb(214, 211, 211);
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.information .shoucang{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.tuwenDetail{
+  background-color: rgb(224, 220, 220);
+  padding-top: 10rpx;
+}
+.tuwenDetail .title{
+  margin: 15rpx 0rpx 25rpx 0rpx;
+  height: 100rpx;
+  font-size: 38rpx;
+  font-weight: 600;
+  color: var(--themeColor);
+  display: flex;
+  align-items: center;
+  padding-left: 20rpx;
+  background-color: white;
+}
+rich-text{
+  border-top: 2rpx solid rgb(134, 132, 132);
+}
+.bottom_tool{
+  border-top: 5rpx solid rgb(207, 204, 204);
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  background-color: white;
+  height: 90rpx;
+  width: 100%;
+}
+.bottom_tool .tool_item{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 24rpx;
+  position: relative;
+}
+.bottom_tool .tool_item button{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+.cart,.buy{
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 154, 71);
+  color: aliceblue;
+  font-size: 30rpx;
+}
+.buy{
+  background-color: tomato;
+}
+.icon-shoucang1{
+  color: var(--themeColor);
+}

@@ -1,0 +1,13 @@
+/**app.wxss**/
+@import "./styles//iconfont.wxss"; /**引入阿里巴巴内所需要的图标**/
+page,view,text,swiper,swiper-item,image,navigator{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/**通过变量来定义主题颜色**/
+page{
+ --themeColor:#eb4450;
+ font-size: 28rpx;
+ }
